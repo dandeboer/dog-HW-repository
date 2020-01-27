@@ -55,7 +55,9 @@ img {
 background-color: #7CE0F3;
 display: inline-block;
 font-size: .8rem;
-
+border-radius: 10px;
+padding: 2px 3px; /* first value is left-right, second value is top-bottom */
+margin-bottom: 3px;
 }
 
 .dog-name {
@@ -63,11 +65,12 @@ font-size: .8rem;
 }
 
 .footer-image {
-    width: 33%;
+    width: 33.33333%;
     height: 300px;
     Object-fit: cover;
     margin: 0;
     padding: 0;
+    opacity: .4;
 }
 
 .test {
@@ -75,4 +78,10 @@ font-size: .8rem;
     height: 300px;
     background-image: url(starter_files/images/donate.jpg);
     display: inline-block;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: rgba(160, 160, 230, 1)
 }
